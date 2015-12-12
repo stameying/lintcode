@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lintcode.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/zigzag_travelsal.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zigzag_travelsal" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/zigzag_travelsal.java" afterPath="$PROJECT_DIR$/src/zigzag_travelsal.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +28,8 @@
       <file leaf-file-name="zigzag_travelsal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zigzag_travelsal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39553753">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.851927">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -585,12 +581,12 @@
       <created>1449902245009</created>
       <option name="number" value="Default" />
       <updated>1449902245009</updated>
-      <workItem from="1449902249363" duration="1129000" />
+      <workItem from="1449902249363" duration="1327000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1129000" />
+    <option name="totallyTimeSpent" value="1327000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="29" width="1400" height="781" extended-state="6" />
@@ -635,8 +631,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/zigzag_travelsal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39553753">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.851927">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding />
         </state>
       </provider>

@@ -19,15 +19,16 @@ public class zigzag_travelsal {
         while (count < matrix.length*matrix[0].length){
             res[count] = matrix[x][y];
             if ( direction == 1){ // going up
-                if (x == 0){ // hit first row
-                    y++;
-                    direction = -1;
-                }else if (y == matrix[0].length-1){ // hit right bound
+                if (y == matrix[0].length-1){ // hit right bound
                     x++;
+                    direction = -1;
+                }else if (x == 0){ // hit first row
+                    y++;
                     direction = -1;
                 }else{ // going right top
                     x--;
                     y++;
+                }  y++;
                 }
             }else{ // going down
                 if (x == matrix.length-1){ // hit bottom
