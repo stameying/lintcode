@@ -28,7 +28,6 @@ public class zigzag_travelsal {
                 }else{ // going right top
                     x--;
                     y++;
-                }  y++;
                 }
             }else{ // going down
                 if (x == matrix.length-1){ // hit bottom
