@@ -9,6 +9,7 @@ public class construct_binary_tree_from_inorder_and_postorder_travesal {
      */
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         // write your code here
+        return null;
     }
 
 }
