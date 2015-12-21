@@ -9,7 +9,7 @@ public class SegmentTreeNode {
     public SegmentTreeNode(int start, int end, int max) {
         this.start = start;
         this.end = end;
-        this.max = max
+        this.max = max;
         this.left = this.right = null;
     }
 }

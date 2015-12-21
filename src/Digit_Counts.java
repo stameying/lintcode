@@ -48,4 +48,54 @@ public class Digit_Counts {
         }
         return count;
     }
+
+
+    /**
+     * A even better method, mathmatical method
+     * */
+    public int digitCounts3(int k, int n) {
+        // write your code here
+        return getCountByMath(n,k);
+    }
+
+
+    /**
+     * let d(i) presents the digit on ith place
+     * case1 : d(i) > k, then the count of k on this digit = the number before ith place * d(i)
+     * case2 : d(i) == k, then the count of k on this digit = the number before ith place * d(i) + the number after ith place + 1
+     * case3 : d(i) < k, then the count of k on this digit = (the number before ith place+1) * d(i)
+     * */
+    public int getCountByMath(int n, int k){
+        int count = 0;
+        int base = 1;
+        int low = 0, high = 0, cur = 0;
+        while ( n/base != 0){
+            low = n % base;
+            cur = (n/base) % 10;
+            high = n / (base * 10);
+            System.out.println("cur num = " + n + " && low = " + low + " cur = " + cur + " high = " + high + " k = " + k);
+            if (cur < k){
+                count += high * base;
+            }else if (cur == k){
+                count += high * base + low + 1;
+            }else{
+                /* special case for k = 0, when counting the highest digit, like n = 99 and k = 0,
+                    now d(0) = 9, high = 0, cur = 9, low = 9, k = 0
+                    we don't add the count cuz 01, 02, 03... doesn't exist
+                */
+                if (k > 0 || high > 0){
+                    count += (high+1) * base;
+                }
+            }
+            base *= 10;
+        }
+        return count;
+    }
+
+
+    public static void main(String[] args) {
+        Digit_Counts test = new Digit_Counts();
+        System.out.println(test.digitCounts3(0,99));
+    }
+
 }
