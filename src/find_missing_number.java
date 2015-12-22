@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * Created by stameying on 12/20/15.
  */
@@ -41,6 +43,7 @@ public class find_missing_number {
             res ^= (i+1)^nums[i];
         }
         return res;
+
     }
 
 }
