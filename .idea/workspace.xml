@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UnionFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lengthOfListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Interval_Minimum_Number.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/find_missing_number.java" afterPath="$PROJECT_DIR$/src/find_missing_number.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,12 +76,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lengthOfListNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lengthOfListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lengthOfListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60229445">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interval_Minimum_Number.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Interval_Minimum_Number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6883365">
+              <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#558#567#0" expanded="true" />
+                <element signature="e#2181#2198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/minimum_depth_binary_tree.java" />
         <option value="$PROJECT_DIR$/src/minimum_path_sum.java" />
         <option value="$PROJECT_DIR$/src/minimum_subarray.java" />
         <option value="$PROJECT_DIR$/src/ListNode.java" />
@@ -159,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/find_missing_number.java" />
         <option value="$PROJECT_DIR$/src/UnionFind.java" />
         <option value="$PROJECT_DIR$/src/lengthOfListNode.java" />
+        <option value="$PROJECT_DIR$/src/Interval_Minimum_Number.java" />
       </list>
     </option>
   </component>
@@ -236,6 +248,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lintcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lintcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interval_Minimum_Number.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -253,22 +283,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.lengthOfListNode">
-    <configuration default="false" name="distinct_subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="distinct_subsequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Interval_Minimum_Number">
     <configuration default="false" name="divide_two_integers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="divide_two_integers" />
@@ -317,6 +332,21 @@
     <configuration default="false" name="lengthOfListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="lengthOfListNode" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Interval_Minimum_Number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Interval_Minimum_Number" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -756,19 +786,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.binary_tree_serialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.distinct_subsequence" />
-      <item index="2" class="java.lang.String" itemvalue="Application.divide_two_integers" />
-      <item index="3" class="java.lang.String" itemvalue="Application.partition_linkedlist" />
-      <item index="4" class="java.lang.String" itemvalue="Application.fast_power" />
-      <item index="5" class="java.lang.String" itemvalue="Application.lengthOfListNode" />
+      <item index="1" class="java.lang.String" itemvalue="Application.divide_two_integers" />
+      <item index="2" class="java.lang.String" itemvalue="Application.partition_linkedlist" />
+      <item index="3" class="java.lang.String" itemvalue="Application.fast_power" />
+      <item index="4" class="java.lang.String" itemvalue="Application.lengthOfListNode" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Interval_Minimum_Number" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.lengthOfListNode" />
-        <item index="1" class="java.lang.String" itemvalue="Application.fast_power" />
-        <item index="2" class="java.lang.String" itemvalue="Application.partition_linkedlist" />
-        <item index="3" class="java.lang.String" itemvalue="Application.divide_two_integers" />
-        <item index="4" class="java.lang.String" itemvalue="Application.distinct_subsequence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Interval_Minimum_Number" />
+        <item index="1" class="java.lang.String" itemvalue="Application.lengthOfListNode" />
+        <item index="2" class="java.lang.String" itemvalue="Application.fast_power" />
+        <item index="3" class="java.lang.String" itemvalue="Application.partition_linkedlist" />
+        <item index="4" class="java.lang.String" itemvalue="Application.divide_two_integers" />
       </list>
     </recent_temporary>
   </component>
@@ -786,12 +816,12 @@
       <workItem from="1449943377986" duration="4065000" />
       <workItem from="1449992998765" duration="45804000" />
       <workItem from="1450600815190" duration="10287000" />
-      <workItem from="1450768483985" duration="304000" />
+      <workItem from="1450768483985" duration="2048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62077000" />
+    <option name="totallyTimeSpent" value="63821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -844,13 +874,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/minimum_path_sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/minimum_subarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1236,9 +1259,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lengthOfListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60229445">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interval_Minimum_Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6883365">
+          <caret line="24" column="56" selection-start-line="24" selection-start-column="56" selection-end-line="24" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#558#567#0" expanded="true" />
+            <element signature="e#2181#2198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
