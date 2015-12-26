@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/longest_increasing_sequence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,12 +71,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="longest_increasing_sequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="longest_increasing_sequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/longest_increasing_sequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6309751">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Longest_Substring_Without_Repeating_Characters.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.83173996">
+              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#377#396#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/permutation_index.java" />
         <option value="$PROJECT_DIR$/src/product_array_exclude_self.java" />
         <option value="$PROJECT_DIR$/src/Recover_Rotated_Sorted_Array.java" />
         <option value="$PROJECT_DIR$/src/remove_duplicate.java" />
@@ -163,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/kth_smallest_number_in_sorted_matrix.java" />
         <option value="$PROJECT_DIR$/src/longestCommonSubsequence.java" />
         <option value="$PROJECT_DIR$/src/longest_increasing_sequence.java" />
+        <option value="$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java" />
       </list>
     </option>
   </component>
@@ -844,12 +856,12 @@
       <workItem from="1449943377986" duration="4065000" />
       <workItem from="1449992998765" duration="45804000" />
       <workItem from="1450600815190" duration="10287000" />
-      <workItem from="1450768483985" duration="15802000" />
+      <workItem from="1450768483985" duration="17076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77575000" />
+    <option name="totallyTimeSpent" value="78849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -902,13 +914,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/remove_duplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/reverse_linkedlist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1311,9 +1316,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/longest_increasing_sequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6309751">
+        <state vertical-scroll-proportion="0.0">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Longest_Substring_Without_Repeating_Characters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83173996">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
