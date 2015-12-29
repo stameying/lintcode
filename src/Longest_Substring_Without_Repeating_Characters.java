@@ -27,8 +27,6 @@ public class Longest_Substring_Without_Repeating_Characters {
                 curLen = i - lastPos;
             }
         }
-
-        for (Map.En)
         return maxLen;
     }
 }
