@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class quickSort {
 
     public void sort(int[] input){
-        quickSort(input,0,input.length-1);
+        quickSort3(input,0,input.length-1);
     }
 
     public void quickSort(int[] input, int left, int right){
@@ -47,6 +47,21 @@ public class quickSort {
         int temp = input[left];
         input[left] = input[right];
         input[right] = temp;
+    }
+
+    public void quickSort3(int[] input, int left, int right){
+        if (left >= right) return;
+        int pivot = input[left];
+        int i = left, j = right;
+        while ( i != j){
+            while (i < j && input[j] >= pivot) j--;
+            while (i < j && input[i] <= pivot ) i++;
+                swap(input,i,j);
+        }
+        if (j > left) swap(input,left,j);
+
+        quickSort3(input,left,j-1);
+        quickSort3(input,j+1,right);
     }
 
     public static void main(String[] args) {
