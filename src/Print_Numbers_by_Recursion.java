@@ -19,7 +19,7 @@ public class Print_Numbers_by_Recursion {
 
     public void getNumber(int cur, int n, int prev, List<Integer> res){
         if (cur > n) return;
-        
+
     }
 
     public static void main(String[] args) {
