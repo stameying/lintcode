@@ -2,7 +2,6 @@ package snapchat;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * Created by stameying on 1/11/16.
  */
@@ -38,11 +37,3 @@ public class zigzag_level_traversal {
     }
 }
 
-class TreeNode {
-    public int val;
-    public TreeNode left, right;
-    public TreeNode(int val) {
-        this.val = val;
-        this.left = this.right = null;
-    }
-}

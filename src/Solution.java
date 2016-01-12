@@ -65,5 +65,6 @@ public class Solution {
 
         // print result
         System.out.println(res);
+        scan.close();
     }
 }
