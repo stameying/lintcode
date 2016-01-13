@@ -22,6 +22,7 @@ public class binary_tree_path {
             List<String> res = new ArrayList<String>();
             List<Integer> path = new ArrayList<Integer>();
             dfs(root,path,res);
+            return res;
         }
 
         public void dfs(TreeNode node, List<Integer> path, List<String> res){
