@@ -2,6 +2,7 @@ package leetcode.google;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import leetcode.Interval;
 /**
  * Created by stameying on 1/16/16.
  */
@@ -50,10 +51,4 @@ public class meeting_room {
         }
     }
 
-    class Interval{
-        int start;
-        int end;
-        Interval() { start = 0; end = 0; }
-        Interval(int s, int e) { start = s; end = e; }
-    }
 }
