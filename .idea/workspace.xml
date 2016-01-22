@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/valid_tree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lintcode.iws" />
@@ -36,19 +32,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="20" column="54" selection-start-line="19" selection-start-column="12" selection-end-line="20" selection-end-column="54" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ugly_number.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/google/ugly_number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,12 +110,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="best_time_to_buy_and_sell_stock_5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="best_time_to_buy_and_sell_stock_5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2543021">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="valid_tree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/google/valid_tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22562142">
+              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+              <folding>
+                <element signature="e#307#322#0" expanded="true" />
+                <element signature="e#1008#1023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/snapchat/compress_word.java" />
         <option value="$PROJECT_DIR$/src/snapchat/snapchat_3sum.java" />
         <option value="$PROJECT_DIR$/src/snapchat/test.java" />
         <option value="$PROJECT_DIR$/src/snapchat/solution.java" />
@@ -208,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_3.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_4.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_5.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/google/valid_tree.java" />
       </list>
     </option>
   </component>
@@ -938,12 +934,12 @@
       <workItem from="1452497481756" duration="26820000" />
       <workItem from="1452580399027" duration="13518000" />
       <workItem from="1452897172459" duration="12953000" />
-      <workItem from="1453336432351" duration="9186000" />
+      <workItem from="1453336432351" duration="11114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200478000" />
+    <option name="totallyTimeSpent" value="202406000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -996,13 +992,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/snapchat/test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lengthOfListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.062154695">
@@ -1384,9 +1373,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2543021">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/google/valid_tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22562142">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="e#307#322#0" expanded="true" />
+            <element signature="e#1008#1023#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
