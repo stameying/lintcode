@@ -34,7 +34,6 @@ public class word_break_2 {
                     String word = s.substring(j,pos);
                     cur.add(word);
                     dp[pos] = true;
-                    for (int i = )
                     dfs(pos,s,wordDict,dp,cur,res);
                     dp[pos] = false;
                     cur.remove(cur.size()-1);

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/find_median_from_data_stream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/lengthOfLongestSubstringTwoDistinct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/maxNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/median_of_two_sorted_array.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/remove_duplicate_letter2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/word_break_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/number_of_islands_2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/test1.class" afterPath="$PROJECT_DIR$/out/production/lintcode/test1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/leetcode/google/word_break_2.class" afterPath="$PROJECT_DIR$/out/production/lintcode/leetcode/google/word_break_2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1.java" afterPath="$PROJECT_DIR$/src/test1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/google/word_break_2.java" afterPath="$PROJECT_DIR$/src/leetcode/google/word_break_2.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="best_time_to_buy_and_sell_stock_5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/google/best_time_to_buy_and_sell_stock/best_time_to_buy_and_sell_stock_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="34" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="valid_tree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/google/valid_tree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,13 +117,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_break_2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="word_break_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/google/word_break_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7456979">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#307#315#0" expanded="true" />
+                <element signature="e#409#417#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count_of_smaller_number.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6271511">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/group_strings.java" />
         <option value="$PROJECT_DIR$/src/leetcode/group_strings.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/summary_ranges.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/binary_tree_path.java" />
@@ -228,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/google/maxNumbers.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/lengthOfLongestSubstringTwoDistinct.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/word_break_2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java" />
       </list>
     </option>
   </component>
@@ -393,22 +393,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.word_break_2">
-    <configuration default="false" name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.count_of_smaller_number">
     <configuration default="false" name="maxNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -477,6 +462,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetcode.google.word_break_2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="count_of_smaller_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode.google.count_of_smaller_number" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -916,19 +921,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.binary_tree_serialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.test1" />
-      <item index="2" class="java.lang.String" itemvalue="Application.maxNumbers" />
-      <item index="3" class="java.lang.String" itemvalue="Application.remove_duplicate_letter2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.lengthOfLongestSubstringTwoDistinct" />
-      <item index="5" class="java.lang.String" itemvalue="Application.word_break_2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.maxNumbers" />
+      <item index="2" class="java.lang.String" itemvalue="Application.remove_duplicate_letter2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.lengthOfLongestSubstringTwoDistinct" />
+      <item index="4" class="java.lang.String" itemvalue="Application.word_break_2" />
+      <item index="5" class="java.lang.String" itemvalue="Application.count_of_smaller_number" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.word_break_2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.lengthOfLongestSubstringTwoDistinct" />
-        <item index="2" class="java.lang.String" itemvalue="Application.maxNumbers" />
-        <item index="3" class="java.lang.String" itemvalue="Application.remove_duplicate_letter2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.test1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.count_of_smaller_number" />
+        <item index="1" class="java.lang.String" itemvalue="Application.word_break_2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.lengthOfLongestSubstringTwoDistinct" />
+        <item index="3" class="java.lang.String" itemvalue="Application.maxNumbers" />
+        <item index="4" class="java.lang.String" itemvalue="Application.remove_duplicate_letter2" />
       </list>
     </recent_temporary>
   </component>
@@ -953,16 +958,16 @@
       <workItem from="1452497481756" duration="26820000" />
       <workItem from="1452580399027" duration="13518000" />
       <workItem from="1452897172459" duration="12953000" />
-      <workItem from="1453336432351" duration="23801000" />
+      <workItem from="1453336432351" duration="25350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215093000" />
+    <option name="totallyTimeSpent" value="216642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -971,7 +976,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26728722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26728722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4863884" order="0" side_tool="false" content_ui="combo" />
@@ -1011,13 +1016,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/google/valid_parenthsis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7705545">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/google/plusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7743786">
@@ -1434,10 +1432,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/google/word_break_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7456979">
-          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#307#315#0" expanded="true" />
+            <element signature="e#409#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6271511">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
           </folding>
         </state>
       </provider>
