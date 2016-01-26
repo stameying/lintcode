@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EPI/Bit/check_parity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EPI/Bit/closestIntSameBitCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EPI/Bit/swapbit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/Expression_Add_Operators.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/closestKValues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/inorder_traverse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/isMatch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/pmt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/regular_expression_match.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/shortest_distance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/shortest_palindrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/leetcode/google/count_of_smaller_number.class" afterPath="$PROJECT_DIR$/out/production/lintcode/leetcode/google/count_of_smaller_number.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/test1.class" afterPath="$PROJECT_DIR$/out/production/lintcode/test1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/minAreaRec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/google/strStr.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java" afterPath="$PROJECT_DIR$/src/leetcode/google/count_of_smaller_number.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1.java" afterPath="$PROJECT_DIR$/src/test1.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,15 +61,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pmt.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pmt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/google/pmt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7418738">
+            <state vertical-scroll-proportion="0.0">
               <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
               <folding>
                 <element signature="e#639#640#0" expanded="true" />
                 <element signature="e#704#705#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strStr.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/google/strStr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minAreaRec.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/google/minAreaRec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5124283">
+              <caret line="100" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/google/Strobogrammatic_Number.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/google/Flip_Game.java" />
         <option value="$PROJECT_DIR$/src/slogan.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/remove_duplicate_letters.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/peek_iterator.java" />
@@ -156,6 +163,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/google/shortest_distance.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/shortest_palindrome.java" />
         <option value="$PROJECT_DIR$/src/leetcode/google/pmt.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/google/strStr.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/google/minAreaRec.java" />
       </list>
     </option>
   </component>
@@ -313,27 +322,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pmt">
-    <configuration default="false" name="regular_expression_match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="leetcode.google.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.google.regular_expression_match" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.minAreaRec">
     <configuration default="false" name="shortest_distance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -342,21 +331,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetcode.google.shortest_distance" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="test1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -397,6 +371,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="leetcode.google.pmt" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="strStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode.google.strStr" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="minAreaRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="leetcode.google.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="leetcode.google.minAreaRec" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -836,19 +850,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.binary_tree_serialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.regular_expression_match" />
-      <item index="2" class="java.lang.String" itemvalue="Application.shortest_distance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.test1" />
-      <item index="4" class="java.lang.String" itemvalue="Application.shortest_palindrome" />
-      <item index="5" class="java.lang.String" itemvalue="Application.pmt" />
+      <item index="1" class="java.lang.String" itemvalue="Application.shortest_distance" />
+      <item index="2" class="java.lang.String" itemvalue="Application.shortest_palindrome" />
+      <item index="3" class="java.lang.String" itemvalue="Application.pmt" />
+      <item index="4" class="java.lang.String" itemvalue="Application.strStr" />
+      <item index="5" class="java.lang.String" itemvalue="Application.minAreaRec" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.pmt" />
-        <item index="1" class="java.lang.String" itemvalue="Application.shortest_palindrome" />
-        <item index="2" class="java.lang.String" itemvalue="Application.shortest_distance" />
-        <item index="3" class="java.lang.String" itemvalue="Application.test1" />
-        <item index="4" class="java.lang.String" itemvalue="Application.regular_expression_match" />
+        <item index="0" class="java.lang.String" itemvalue="Application.minAreaRec" />
+        <item index="1" class="java.lang.String" itemvalue="Application.strStr" />
+        <item index="2" class="java.lang.String" itemvalue="Application.pmt" />
+        <item index="3" class="java.lang.String" itemvalue="Application.shortest_palindrome" />
+        <item index="4" class="java.lang.String" itemvalue="Application.shortest_distance" />
       </list>
     </recent_temporary>
   </component>
@@ -873,12 +887,12 @@
       <workItem from="1452497481756" duration="26820000" />
       <workItem from="1452580399027" duration="13518000" />
       <workItem from="1452897172459" duration="12953000" />
-      <workItem from="1453336432351" duration="51105000" />
+      <workItem from="1453336432351" duration="54799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242397000" />
+    <option name="totallyTimeSpent" value="246091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -891,7 +905,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26728722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26728722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.4863884" order="0" side_tool="false" content_ui="combo" />
@@ -931,21 +945,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/google/numSquares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/google/flatten_2d_vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/google/encode_decode_strings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1388,12 +1387,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/google/pmt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7418738">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding>
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#704#705#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/google/strStr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/google/minAreaRec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5124283">
+          <caret line="100" column="5" selection-start-line="6" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
