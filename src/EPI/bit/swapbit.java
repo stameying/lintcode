@@ -1,4 +1,4 @@
-package EPI.Bit;
+package EPI.bit;
 
 /**
  * Created by stameying on 1/24/16.

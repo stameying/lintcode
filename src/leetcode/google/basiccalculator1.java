@@ -33,7 +33,7 @@ public class basiccalculator1 {
         for (int i = 0; i < input.length(); i++){
             char ch = input.charAt(i);
             if (ch == '+' || ch == '-'){
-                while (!stack.isEmpty() && (stack.peek() == '+' || stack.peek() == '-')){
+                while (!stack.isEmpty() && stack.peek() != '('){
                     res.add(stack.pop().toString());
                 }
                 stack.push(ch);
@@ -93,7 +93,7 @@ public class basiccalculator1 {
 
 
     public static void main(String[] args) {
-        basiccalculator1 calculator = new basiccalculator1("2-1+2");
+        basiccalculator1 calculator = new basiccalculator1("2*6-(23+7)/(1+2)");
         System.out.println(calculator.evalueate());
     }
 }
