@@ -26,7 +26,7 @@ public class best_time_to_buy_and_sell_stock_3 {
             left[i] = max;
             low = Math.min(low,prices[i]);
         }
-//        System.out.println("left array:" + Arrays.toString(left));
+        System.out.println("left array:" + Arrays.toString(left));
 
         cur = 0;
         max = 0;
@@ -38,7 +38,7 @@ public class best_time_to_buy_and_sell_stock_3 {
             right[i] = max;
             high = Math.max(high,prices[i]);
         }
-//        System.out.println("right array:" + Arrays.toString(right));
+        System.out.println("right array:" + Arrays.toString(right));
 
         max = 0;
         for (int i = 0; i < prices.length; i++){
@@ -48,7 +48,7 @@ public class best_time_to_buy_and_sell_stock_3 {
     }
 
     public static void main(String[] args) {
-        int[] prices = {2,4,1,7,5,3};
+        int[] prices = {12,11,13,9,12,8,14,13,15};
         best_time_to_buy_and_sell_stock_3 test3 = new best_time_to_buy_and_sell_stock_3();
         System.out.println("Max profit = " + test3.maxProfit(prices));
     }
