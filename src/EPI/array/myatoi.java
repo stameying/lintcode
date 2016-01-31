@@ -57,6 +57,8 @@ public class myatoi {
     public static void main(String[] args) {
         System.out.println(myAtoi("-2147483648"));
         int[] temp = new int[2];
-        List<Integer> nums = new ArrayList<>(Arrays.asList(temp));
+        List<Integer> nums = new ArrayList<>();
     }
+
+
 }
