@@ -37,7 +37,7 @@ public class findSquareRoot {
             double midSquare = mid*mid;
             if (compare(midSquare,x) == Ordering.EQUAL){
                 return mid;
-            }else if (compare(midSquare.x) == Ordering.LARGER){
+            }else if (compare(midSquare,x) == Ordering.LARGER){
                 right = mid;
             }else{
                 left = mid;
@@ -46,7 +46,7 @@ public class findSquareRoot {
         return left;
     }
 
-    public static enum Ordering {SMALLER, EQUAL, LARGER};
+    public static enum Ordering {SMALLER, EQUAL, LARGER}
 
     public static Ordering compare(double a, double b){
         final double EPSILON = 0.00001;
