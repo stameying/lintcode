@@ -26,7 +26,7 @@ public class huffmanCode {
         }
 
         @Override
-        public int compareTo(BinaryTree o) {return Double.compare(aggregateFreq,o.aggregateFreq)};
+        public int compareTo(BinaryTree o) {return Double.compare(aggregateFreq,o.aggregateFreq);}
 
         @Override
         public boolean equals(Object obj){
@@ -35,7 +35,7 @@ public class huffmanCode {
         }
 
         @Override
-        public int hashCode() {return Objects.hash(aggregateFreq)};
+        public int hashCode() {return Objects.hash(aggregateFreq);}
     }
 
 
