@@ -1,0 +1,30 @@
+public class p2_encoding_decoding_strings{
+	
+	/*
+	Use len+'#' as seperator!
+	*/
+	// encoding a list of strings 
+	public static String encoding(List<String> strs){
+		StringBuilder builder = new StringBuilder();
+		for (String str: strs){
+			builder.append(str.length());
+			builder.append('#');
+			builder.append(str);
+		}
+		return builder.toString();
+	}
+
+	// decoding a String to a list of Strings
+	public static List<String> decoding(String str){
+		List<String> res = new ArrayList<>();
+		for (int idx = 0; idx < str.length(); idx++){
+			int lookAheadIdx = idx+1;
+			while (lookAheadIdx < str.length() && str.charAt(lookAheadIdx) != '#') lookAheadIdx++;
+			int wordLen = Integer.parseInt(str.substring(idx,lookAheadIdx));
+			lookAheadIdx++;
+			res.add(str.substring(lookAheadIdx,lookAheadIdx+wordLen));
+			idx = lookAheadIdx+wordLen-1;
+		}
+		return res;
+	}
+}
