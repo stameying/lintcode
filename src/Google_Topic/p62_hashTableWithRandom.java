@@ -11,16 +11,27 @@ public class p62_hashTableWithRandom<K,V>{
     Map<K,Integer> KeyIndexMap;
     List<K> keyArr;
     Random ran;
+
+    /**
+     * A hashtable that with
+     * O(1) insert
+     * O(1) delete
+     * O(1) lookup
+     * O(1) get a random value from map
+     * */
     public p62_hashTableWithRandom(){
         KeyValueMap = new HashMap<>();
         KeyIndexMap = new HashMap<>();
         keyArr = new ArrayList<>();
         ran = new Random();
     }
+
+
     public V get(K key){
         if (KeyValueMap.containsKey(key)) return KeyValueMap.get(key);
         else return null;
     }
+
 
     public V put(K key, V val){
         if (KeyValueMap.containsKey(key)){

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/Google_Topic/p56_split_string.class" afterPath="$PROJECT_DIR$/out/production/lintcode/Google_Topic/p56_split_string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Google_Topic/p56_split_string.java" afterPath="$PROJECT_DIR$/src/Google_Topic/p56_split_string.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" afterPath="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,8 +88,8 @@
       <file leaf-file-name="p62_hashTableWithRandom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5917667">
-              <caret line="30" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.6466552">
+              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -894,12 +891,12 @@
       <workItem from="1454290885418" duration="137000" />
       <workItem from="1454291054333" duration="36000" />
       <workItem from="1454291166707" duration="94182000" />
-      <workItem from="1454983130657" duration="11162000" />
+      <workItem from="1454983130657" duration="11303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408097000" />
+    <option name="totallyTimeSpent" value="408238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1423,8 +1420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5917667">
-          <caret line="30" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.6466552">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding />
         </state>
       </provider>
