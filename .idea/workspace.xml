@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" afterPath="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p72_largest_substring_with_at_most_m_distinct_characters.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p75_tail_recursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/longestConsequtive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,20 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="p44_longest_sequence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Google_Topic/p44_longest_sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="p48_computerdistance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Google_Topic/p48_computerdistance.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,6 +62,46 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="longestConsequtive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/longestConsequtive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p72_largest_substring_with_at_most_m_distinct_characters.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Google_Topic/p72_largest_substring_with_at_most_m_distinct_characters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p75_tail_recursion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Google_Topic/p75_tail_recursion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77186966">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="p56_split_string.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Google_Topic/p56_split_string.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p62_hashTableWithRandom.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p62_hashTableWithRandom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6466552">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -142,9 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/palindrome.java" />
-        <option value="$PROJECT_DIR$/src/differenceByOneBit.java" />
-        <option value="$PROJECT_DIR$/src/EPI/recursion/computeDiamter.java" />
         <option value="$PROJECT_DIR$/src/EPI/Dynamic_Programming/fibonacci.java" />
         <option value="$PROJECT_DIR$/src/EPI/Dynamic_Programming/numCombinations.java" />
         <option value="$PROJECT_DIR$/src/EPI/Dynamic_Programming/binomial_coefficient.java" />
@@ -193,6 +219,9 @@
         <option value="$PROJECT_DIR$/src/EPI/challenge/greatest_common_divisor.java" />
         <option value="$PROJECT_DIR$/src/Google_Topic/p56_split_string.java" />
         <option value="$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java" />
+        <option value="$PROJECT_DIR$/src/Google_Topic/p72_largest_substring_with_at_most_m_distinct_characters.java" />
+        <option value="$PROJECT_DIR$/src/longestConsequtive.java" />
+        <option value="$PROJECT_DIR$/src/Google_Topic/p75_tail_recursion.java" />
       </list>
     </option>
   </component>
@@ -310,27 +339,7 @@
       <recent name="leetcode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p62_hashTableWithRandom">
-    <configuration default="false" name="p50_good_numbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Google_Topic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Google_Topic.p50_good_numbers" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.p75_tail_recursion">
     <configuration default="false" name="quickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="quickSort2" />
@@ -394,6 +403,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Google_Topic.p62_hashTableWithRandom" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p75_tail_recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Google_Topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Google_Topic.p75_tail_recursion" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -845,19 +874,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.binary_tree_serialization" />
-      <item index="1" class="java.lang.String" itemvalue="Application.p50_good_numbers" />
-      <item index="2" class="java.lang.String" itemvalue="Application.quickSort2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.greatest_common_divisor" />
-      <item index="4" class="java.lang.String" itemvalue="Application.p56_split_string" />
-      <item index="5" class="java.lang.String" itemvalue="Application.p62_hashTableWithRandom" />
+      <item index="1" class="java.lang.String" itemvalue="Application.quickSort2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.greatest_common_divisor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.p56_split_string" />
+      <item index="4" class="java.lang.String" itemvalue="Application.p62_hashTableWithRandom" />
+      <item index="5" class="java.lang.String" itemvalue="Application.p75_tail_recursion" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.p62_hashTableWithRandom" />
-        <item index="1" class="java.lang.String" itemvalue="Application.p56_split_string" />
-        <item index="2" class="java.lang.String" itemvalue="Application.greatest_common_divisor" />
-        <item index="3" class="java.lang.String" itemvalue="Application.quickSort2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.p50_good_numbers" />
+        <item index="0" class="java.lang.String" itemvalue="Application.p75_tail_recursion" />
+        <item index="1" class="java.lang.String" itemvalue="Application.p62_hashTableWithRandom" />
+        <item index="2" class="java.lang.String" itemvalue="Application.p56_split_string" />
+        <item index="3" class="java.lang.String" itemvalue="Application.greatest_common_divisor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.quickSort2" />
       </list>
     </recent_temporary>
   </component>
@@ -891,16 +920,16 @@
       <workItem from="1454290885418" duration="137000" />
       <workItem from="1454291054333" duration="36000" />
       <workItem from="1454291166707" duration="94182000" />
-      <workItem from="1454983130657" duration="11303000" />
+      <workItem from="1454983130657" duration="14520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="408238000" />
+    <option name="totallyTimeSpent" value="411455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -909,7 +938,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26728722" sideWeight="0.50555557" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.49444443" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.47912887" order="0" side_tool="false" content_ui="combo" />
@@ -949,38 +978,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EPI/Dynamic_Programming/numCombinations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EPI/Dynamic_Programming/binomial_coefficient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#872#873#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EPI/Dynamic_Programming/isPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EPI/Dynamic_Programming/knapsack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/EPI/Dynamic_Programming/minimal_path.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1400,14 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google_Topic/p56_split_string.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1418,11 +1407,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327616">
+          <caret line="128" column="22" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Google_Topic/p62_hashTableWithRandom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6466552">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google_Topic/p72_largest_substring_with_at_most_m_distinct_characters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/longestConsequtive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Google_Topic/p75_tail_recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77186966">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
