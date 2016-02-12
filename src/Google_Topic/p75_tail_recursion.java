@@ -32,6 +32,29 @@ public class p75_tail_recursion {
         helpMatch(newMatches, res);
     }
 
+
+    public static String match2(int n){
+        List<String> matches = new ArrayList<>();
+        for (int i = 1; i <= n; i++){
+            matches.add(Integer.toString(i));
+        }
+        String[] res = new String[1];
+        helper(matches, res);
+        return res[0];
+    }
+
+    public static void helper(List<String> matches, String[] res){
+        if (matches.size() == 1){
+            res[0] = matches.get(0);
+            return;
+        }
+        List<String> newMatch = new ArrayList<>();
+        for (int i = 0; i < matches.size() / 2; i++){
+            newMatch.add("("+matches.get(i)+","+matches.get(matches.size()-1-i)+")");
+        }
+        helper(newMatch, res);
+    }
+
     public static void main(String[] args) {
         System.out.println(match(8));
     }
