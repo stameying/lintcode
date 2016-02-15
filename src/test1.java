@@ -15,14 +15,18 @@ public class test1 {
 //        int num = 3;
 //        System.out.println((num&1)==0);
 
-        int[] arr = {2,3,5};
-        System.out.println(Arrays.toString(arr));
+//        int[] arr = {2,3,5};
+//        System.out.println(Arrays.toString(arr));
+//
+//        Set<int[]> set = new HashSet<>();
+//        int[] entry1 = {1,1};
+//        set.add(entry1);
+//
+//        int[] entry2 = {1,1};
+//        System.out.println(set.contains(entry2));
 
-        Set<int[]> set = new HashSet<>();
-        int[] entry1 = {1,1};
-        set.add(entry1);
 
-        int[] entry2 = {1,1};
-        System.out.println(set.contains(entry2));
+        int num1 = 0b1000;
+        System.out.println("num1="+num1);
     }
 }
