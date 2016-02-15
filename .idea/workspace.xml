@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EPI/challenge/maxium_sliding_window.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p112_alien_dic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p114_data_stream.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google_Topic/p118_valid_utf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/test1.class" afterPath="$PROJECT_DIR$/out/production/lintcode/test1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1.java" afterPath="$PROJECT_DIR$/src/test1.java" />
-    </list>
+    <list default="true" id="7d927c8f-4c22-4651-a9e8-e0972bf36169" name="Default" comment="" />
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -954,15 +946,15 @@
       <workItem from="1454290885418" duration="137000" />
       <workItem from="1454291054333" duration="36000" />
       <workItem from="1454291166707" duration="94182000" />
-      <workItem from="1454983130657" duration="27901000" />
+      <workItem from="1454983130657" duration="29711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424836000" />
+    <option name="totallyTimeSpent" value="426646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
