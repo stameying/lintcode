@@ -27,6 +27,8 @@ public class test1 {
 
 
         int num1 = 0b1000;
-        System.out.println("num1="+num1);
+//        System.out.println("num1="+num1);
+
+        System.out.println((int)(Math.log(243)/Math.log(3)));
     }
 }
