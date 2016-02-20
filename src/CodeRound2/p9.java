@@ -25,4 +25,8 @@ public class p9 {
         }
         return ((res==num)||(res/10==num));
     }
+
+    public static void main(String[] args) {
+        System.out.println("hello".substring(0,1));
+    }
 }
