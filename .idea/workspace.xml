@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc3abc0-59b4-441e-a2df-2b48aa985061" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/binarySearch_find_smallest_index_of_target_in_sorted_array_with_duplicate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/p43.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/p47.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lintcode.iws" />
@@ -27,20 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="find_k_elements_closet_to_median.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeRound2/find_k_elements_closet_to_median.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="max_point_in_a_line.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeRound2/max_point_in_a_line.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,12 +115,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p43.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p43.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeRound2/p43.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4642857">
+            <state vertical-scroll-proportion="0.0">
               <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p47.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p47.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11764706">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#432#447#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +170,7 @@
         <option value="$PROJECT_DIR$/src/CodeRound2/binarySearch_find_largest_index_smaller_than_target.java" />
         <option value="$PROJECT_DIR$/src/CodeRound2/binarySearch_find_smallest_index_of_target_in_sorted_array_with_duplicate.java" />
         <option value="$PROJECT_DIR$/src/CodeRound2/p43.java" />
+        <option value="$PROJECT_DIR$/src/CodeRound2/p47.java" />
       </list>
     </option>
   </component>
@@ -840,12 +839,12 @@
       <created>1455824506388</created>
       <option name="number" value="Default" />
       <updated>1455824506388</updated>
-      <workItem from="1455824510400" duration="16295000" />
+      <workItem from="1455824510400" duration="16871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16295000" />
+    <option name="totallyTimeSpent" value="16871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1013,9 +1012,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeRound2/p43.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4642857">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeRound2/p47.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11764706">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#447#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
