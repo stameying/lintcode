@@ -28,7 +28,8 @@ public class p164 {
         }
 
         int N = nums.length;
-        int bucketLen = (maxVal-minVal)/(N-1);
+//        int bucketLen = (maxVal-minVal)/(N-1);
+        int bucketLen = (int)Math.ceil((double)(maxVal - minVal)/(nums.length - 1));
         int numOfBucket = (maxVal-minVal)/bucketLen+1;
         bucket[] buckets = new bucket[numOfBucket];
         for (int i = 0; i < buckets.length; i++){
