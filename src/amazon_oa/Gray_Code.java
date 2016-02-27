@@ -23,6 +23,16 @@ public class Gray_Code {
     }
 
 
+    public static int gray_code3(byte term1, byte term2){
+        byte res = (byte)(term1 ^ term2);
+        if (res == 0) return 0;
+        for (int i = 0; i < 7; i++){
+            if (1<<i == res) return 1;
+        }
+        return 0;
+    }
+
+
     public static void main(String[] args) {
         byte term1 = 101;
         byte term2 = -27;
