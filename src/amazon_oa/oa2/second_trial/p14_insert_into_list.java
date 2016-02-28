@@ -55,7 +55,7 @@ public class p14_insert_into_list {
     public static void main(String[] args) {
         ListNode head = new ListNode(1);
         ListNode cur = head;
-        int[] array = new int[] {2,4,6};
+        int[] array = new int[] {2,2,4,6};
         for (int i = 0; i < array.length; i++) {
             ListNode node = new ListNode(array[i]);
             cur.next = node;
