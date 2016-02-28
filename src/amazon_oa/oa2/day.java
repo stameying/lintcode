@@ -53,7 +53,6 @@ public class day {
         int[] days = new int[] {1, 0, 0, 0, 0, 1, 0, 0};
 
         System.out.println(Arrays.toString(Solution(days,2)));
-        System.out.println(Arrays.toString(changeday(days,2)));
 
         //int[] rvalue = solution8.Solution(new int[] {1}, 1);
     }
