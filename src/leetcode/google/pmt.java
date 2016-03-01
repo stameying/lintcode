@@ -28,6 +28,6 @@ public class pmt {
 
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(pmt("issip")));
+        System.out.println(Arrays.toString(pmt("aabbaabbaa")));
     }
 }
