@@ -1,5 +1,7 @@
 package src.CodeRound2;
 
+import java.util.List;
+
 /**
  * Created by stameying on 3/2/16.
  */
@@ -19,12 +21,14 @@ public class p68 {
                     modSpace--;
                 }
             }
-            return builder.toString();
+            res.add(builder.toString());
+            return;
         }
     }
 
 
     public static void main(String[] args) {
-        
+        String[] str = {"hello","word","i","am"};
+        System.out.println();
     }
 }
