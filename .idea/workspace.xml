@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc3abc0-59b4-441e-a2df-2b48aa985061" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/big_number_add.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/p304.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/p321.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/segmentTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound2/p334.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound3/p256.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound3/p280.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound3/p294.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/src/CodeRound2/p321.class" afterPath="$PROJECT_DIR$/out/production/lintcode/src/CodeRound2/p321.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lintcode.iws" />
@@ -29,54 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="p229.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p229.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p241.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p241.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2111#2112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p65.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p65.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="p255.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p255.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="p68.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeRound2/p68.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,14 +80,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p321.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="p321.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CodeRound2/p321.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7794118">
+            <state vertical-scroll-proportion="0.0">
               <caret line="74" column="41" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p334.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeRound2/p334.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p280.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeRound3/p280.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p256.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeRound3/p256.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p294.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CodeRound3/p294.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28361344">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,10 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/amazon_oa/minimum_window.java" />
-        <option value="$PROJECT_DIR$/src/amazon_oa/getCloseK.java" />
-        <option value="$PROJECT_DIR$/src/amazon_oa/linklistloop.java" />
-        <option value="$PROJECT_DIR$/src/CodeRound2/p179.java" />
         <option value="$PROJECT_DIR$/src/amazon_oa/Gray_Code.java" />
         <option value="$PROJECT_DIR$/src/amazon_oa/remove_vower.java" />
         <option value="$PROJECT_DIR$/src/amazon_oa/longest_palindrome.java" />
@@ -210,6 +199,10 @@
         <option value="$PROJECT_DIR$/src/CodeRound2/segmentTree.java" />
         <option value="$PROJECT_DIR$/src/CodeRound2/big_number_add.java" />
         <option value="$PROJECT_DIR$/src/CodeRound2/p321.java" />
+        <option value="$PROJECT_DIR$/src/CodeRound2/p334.java" />
+        <option value="$PROJECT_DIR$/src/CodeRound3/p280.java" />
+        <option value="$PROJECT_DIR$/src/CodeRound3/p256.java" />
+        <option value="$PROJECT_DIR$/src/CodeRound3/p294.java" />
       </list>
     </option>
   </component>
@@ -294,25 +287,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Google_Topic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lintcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lintcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeRound2" />
+              <option name="myItemId" value="CodeRound3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,67 +308,7 @@
       <recent name="$PROJECT_DIR$/src/first_round" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.p321">
-    <configuration default="false" name="p255" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="src.CodeRound2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="src.CodeRound2.p255" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="p274" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="src.CodeRound2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="src.CodeRound2.p274" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="p304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="src.CodeRound2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="src.CodeRound2.p304" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="lintcode" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.p294">
     <configuration default="false" name="big_number_add" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -422,6 +337,66 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="src.CodeRound2.p321" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p280" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.CodeRound3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.CodeRound3.p280" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p256" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.CodeRound3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.CodeRound3.p256" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lintcode" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="p294" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="src.CodeRound3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="src.CodeRound3.p294" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -857,19 +832,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.p255" />
-      <item index="1" class="java.lang.String" itemvalue="Application.p274" />
-      <item index="2" class="java.lang.String" itemvalue="Application.p304" />
-      <item index="3" class="java.lang.String" itemvalue="Application.big_number_add" />
-      <item index="4" class="java.lang.String" itemvalue="Application.p321" />
+      <item index="0" class="java.lang.String" itemvalue="Application.big_number_add" />
+      <item index="1" class="java.lang.String" itemvalue="Application.p321" />
+      <item index="2" class="java.lang.String" itemvalue="Application.p280" />
+      <item index="3" class="java.lang.String" itemvalue="Application.p256" />
+      <item index="4" class="java.lang.String" itemvalue="Application.p294" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.p321" />
-        <item index="1" class="java.lang.String" itemvalue="Application.big_number_add" />
-        <item index="2" class="java.lang.String" itemvalue="Application.p304" />
-        <item index="3" class="java.lang.String" itemvalue="Application.p274" />
-        <item index="4" class="java.lang.String" itemvalue="Application.p255" />
+        <item index="0" class="java.lang.String" itemvalue="Application.p294" />
+        <item index="1" class="java.lang.String" itemvalue="Application.p256" />
+        <item index="2" class="java.lang.String" itemvalue="Application.p280" />
+        <item index="3" class="java.lang.String" itemvalue="Application.p321" />
+        <item index="4" class="java.lang.String" itemvalue="Application.big_number_add" />
       </list>
     </recent_temporary>
   </component>
@@ -885,12 +860,12 @@
       <updated>1455824506388</updated>
       <workItem from="1455824510400" duration="48364000" />
       <workItem from="1456532722049" duration="124000" />
-      <workItem from="1456537519632" duration="49525000" />
+      <workItem from="1456537519632" duration="51945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98013000" />
+    <option name="totallyTimeSpent" value="100433000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -941,40 +916,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/amazon_oa/oa1/minimum_window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/amazon_oa/oa1/reverse_second_half_linkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/amazon_oa/oa1/search_2d_matrix_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/amazon_oa/oa1/rotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeRound2/p187.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1391,11 +1332,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CodeRound2/p321.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7794118">
+        <state vertical-scroll-proportion="0.0">
           <caret line="74" column="41" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeRound2/p334.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeRound3/p280.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeRound3/p256.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeRound3/p294.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28361344">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
