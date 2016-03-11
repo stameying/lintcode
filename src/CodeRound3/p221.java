@@ -11,6 +11,7 @@ public class p221 {
 
         int[][] dp = new int[m][n];
         int max = 0;
+        int minimumMax = 0;
         for (int i = 0; i < m; i++){
             for (int j = 0; j < n; j++){
                 if (matrix[i][j] == '0') dp[i][j] = 0;
@@ -33,6 +34,7 @@ public class p221 {
                         }
 
                         max = Math.max(max,dp[i][j]);
+                        if (dp[i][j] > minimumMax) minimumMax = dp[i][j];
                     }
                 }
             }
@@ -43,7 +45,10 @@ public class p221 {
 
 
     public static void main(String[] args) {
-        char[][] matrix = {"11100".toCharArray(),"11100".toCharArray(),"11111".toCharArray(),"01111".toCharArray(),"01111".toCharArray(),"01111".toCharArray()};
-        maximalSquare(matrix);
+//        char[][] matrix = {"11111".toCharArray(),"11101".toCharArray(),"11110".toCharArray(),"01111".toCharArray(),"01111".toCharArray(),"10111".toCharArray(),"11111".toCharArray()};
+//        maximalSquare(matrix);
+
+
+        System.out.println(new Integer(-2).toBinaryString(-2));
     }
 }
