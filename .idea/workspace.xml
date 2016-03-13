@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bc3abc0-59b4-441e-a2df-2b48aa985061" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CodeRound3/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lintcode/src/CodeRound3/p221.class" afterPath="$PROJECT_DIR$/out/production/lintcode/src/CodeRound3/p221.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CodeRound3/p221.java" afterPath="$PROJECT_DIR$/src/CodeRound3/p221.java" />
-    </list>
+    <list default="true" id="2bc3abc0-59b4-441e-a2df-2b48aa985061" name="Default" comment="" />
     <ignored path="lintcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/CodeRound3/test.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5042017">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="44" />
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -799,12 +794,12 @@
       <updated>1455824506388</updated>
       <workItem from="1455824510400" duration="48364000" />
       <workItem from="1456532722049" duration="124000" />
-      <workItem from="1456537519632" duration="67113000" />
+      <workItem from="1456537519632" duration="67584000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115601000" />
+    <option name="totallyTimeSpent" value="116072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="6" />
@@ -1306,7 +1301,7 @@
     <entry file="file://$PROJECT_DIR$/src/CodeRound3/test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5042017">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="44" />
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
