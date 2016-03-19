@@ -39,8 +39,12 @@ public class p306 {
 
 
     public static void main(String[] args) {
-        String num1 = "349";
-        String num2 = "34911";
-        System.out.println(BigIntegerAdd(num1,num2));
+//        String num1 = "349";
+//        String num2 = "34911";
+//        System.out.println(BigIntegerAdd(num1,num2));
+
+        String str = "1 +     2";
+
+        System.out.println(Arrays.toString(str.split(" ")));
     }
 }
