@@ -20,9 +20,20 @@ public class p15_gcd {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[] {123456, 7890, 12, 24, 60};
-        System.out.println(gcd(nums));
+//        int[] nums = new int[] {123456, 7890, 12, 24, 60};
+//        System.out.println(gcd(nums));
 //        System.out.println(7%4);
 //        System.out.println(2%8);
+
+//        int gcd = findGCD(489,333);
+////        System.out.println(gcd);
+//        if (gcd != 1){
+//            int fenmu = 489/gcd;
+//            int fenzi = 333/gcd;
+//            System.out.println(fenmu+"/"+fenzi);
+//        }
+
+
+        System.out.println(findGCD(8,0));
     }
 }

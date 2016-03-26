@@ -64,6 +64,12 @@ public class p241 {
     }
 
     public static void main(String[] args) {
-        System.out.println(diffWaysToCompute("2*3-4*5"));
+
+        for (byte b = Byte.MIN_VALUE; b < Byte.MAX_VALUE; b++) {
+            if (b == 0x90) {
+                System.out.println("find it");
+            }
+        }
+
     }
 }
