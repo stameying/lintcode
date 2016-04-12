@@ -39,6 +39,6 @@ public class p148_no_neighbor_char_strings {
     }
 
     public static void main(String[] args) {
-        System.out.println(rerangeString("AAA"));
+        System.out.println(rerangeString("AABB"));
     }
 }
